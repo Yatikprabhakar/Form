@@ -1,0 +1,84 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <form action="">
+            <fieldset>
+            <legend>Personal Details</legend>
+            <div>
+            <label>Firstname:</label>
+            <input type="text" placeholder = "Enter your first name" size= "15" requierd>
+            </div> <br>
+            <div>
+                <label for="">Middlename:</label>
+                <input type="text" placeholder= "Enter your middle name" size= "15">
+            </div><br>
+            <div>
+                <label for="">Lastname:</label>
+                <input type="text" placeholder= "Enter your last name" size= "15" requierd>
+            </div><br>
+            <div>
+                <label for="">Course :</label>
+                <select name="" id="">
+                    <option selected disabled value="">Course</option>
+                    <option value="">BCA</option>
+                    <option value="">BBA</option>
+                    <option value="">B.Tech</option>
+                    <option value="">MBA</option>
+                    <option value="">MCA</option>
+                    <option value="">M.Tech</option>
+                </select>
+            </div><br>
+            <div>
+                <label for="">Gender :</label><br>
+                <input type="radio" name= "gen" value="m" requierd> Male<br>
+                <input type="radio" name= "gen" value="f" requierd> Female<br>
+                <input type="radio" name= "gen" value="o" requierd> Other<br>
+            </div><br>
+            <div>
+                <label for="">DOB</label>
+                <input type="datetime-local" requierd>
+            </div>
+            <div>
+                <label for="">Phone :</label>
+                <input selected disabled value="+91" size="2">
+                <input type="number" requierd>
+            </div> <br>
+            <div>
+                <label for="">Address</label><br>
+                <textarea name="" id="" cols="80" rows="5" requierd></textarea>
+            </div><br>
+            <div>
+                <label for="">Email:</label>
+                <input type="Email" placeholder= "Enter your email" requierd>
+            </div><br><br>
+            <div>
+                <label for="">Password:</label>
+                <input type="password" placeholder= "Enter your password" requierd>
+            </div><br><br>
+            <div>
+                <label for="">Re-type password:</label>
+                <input type="password" placeholder= "Re-Enter your password" requierd> 
+            </div><br>
+            <div>
+            <input type="checkbox" requierd >
+            <label for=""> Agree to terms and conditions</label>
+            </div><br>
+            <div>
+                <label for="">Choose File</label>
+                <input type="file">
+            </div><br>
+            <div>
+                <label for="">Choose Color</label>
+                <input type="color">
+            </div><br>
+            <div>
+                <button type="clear">Reset</button>
+                <button type="submit">Submit</button>
+            </div>
+            </fieldset>
+        </form>
+    </body>
+</html>
